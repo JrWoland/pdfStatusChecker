@@ -14,6 +14,20 @@ button {
 
 }
 
+button#button2 {
+    background: rgb(223, 75, 87);
+}
+
+button#button2:hover {
+    cursor: pointer;
+    background: rgb(255, 103, 115);
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(142, 235, 128);
+}
+
 table.paleBlueRows {
     border: 1px solid #FFFFFF;
     width: 350px;
@@ -61,4 +75,8 @@ table.paleBlueRows tfoot {
 
 table.paleBlueRows tfoot td {
     font-size: 14px;
+}
+
+textarea {
+    width: 100%;
 }
